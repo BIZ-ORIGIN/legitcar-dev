@@ -1,0 +1,379 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar{
+    min-height: 100%;
+    width: 20%;
+    background-color: #ffffff;
+    position: fixed;
+    z-index: 1;
+}
+
+.nav-logo{
+    display: flex;
+    height:80px;
+    background-color: #ffffff;
+    justify-content: left;
+    align-items: center;
+    padding: 0px 50px;
+    border-bottom: 1px solid #F2F4F7;
+}
+
+.sidebar i{
+    padding-right: 10px;
+}
+
+.sidebar ul{
+    padding: 10px 20px;
+}
+
+.sidebar li{
+    list-style-type: none;
+}
+
+.sidebar li a{
+    display: block;
+    color: #667085;
+    line-height: 50px;
+    padding: 0px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.sidebar li a:hover{
+    background-color: #8e44ad;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.main{
+ 
+    background-color: #F2F4F7;
+    min-height: 100vh;
+    width: 80%;
+    margin-left: 20%;
+}
+
+header{
+    display: flex;
+    position: fixed;
+    background-color: #ffffff;
+    border-left: 1px solid #f2f4f7;
+    width: 80%;
+    height: 79px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    box-shadow: 0px 0px 20px rgba(29, 41, 57, 0.1);
+} 
+
+.verify{
+    color: #475467;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+select{
+    color: #A3A3A3;
+    height: 35px;
+    width: 180px;
+    border: 1px solid #A3A3A3;
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-size: 14px;
+    font-family: 'Space Grotesk', sans-serif;
+    cursor: pointer;
+}
+
+nav i{
+    color: #667085;
+}
+
+nav img{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+.main2{
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    padding: 100px 40px;
+}
+
+.main2-content{
+    /* flex: 1; */
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    padding: 30px;
+    /* justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+}
+
+.back{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    color: #475467;
+}
+
+.back i{
+    cursor: pointer;
+}
+
+.back-text{
+    font-size: 16px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bold;
+}
+
+h2{
+    text-align: center;
+    padding-top: 25px;
+    font-size: 18px;
+    color: #1d2939;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.card-container{
+    display: flex;
+    flex-direction: row;
+    height: 270px;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.card1{
+    display: flex;
+    width: 30%;
+    border: 1px solid #D0D5DD;
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+    flex: 2;
+}
+
+.honda-circle{
+    display: flex;
+    padding: 8px 8px;
+    border-radius: 50%;
+    background-color: #f2f4f7;
+    justify-content: center;
+    text-align: center;
+}
+
+.honda-circle img{
+    height: 80px;
+    width: 80px;
+}
+
+.card1 h3{
+    font-size: 18px;
+    font-weight: bold;
+    color: #1D2939;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.card1 p{
+    font-size: 14px;
+    color: #667085;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.card2{
+    display: flex;
+    width: 70%;
+    border: 1px solid #D0D5DD;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex:3;
+}
+
+.card2-column{
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 40%;
+    gap: 10px;
+}
+
+.card2-column p{
+    font-size: 14px;
+    color: #667085;
+    font-family: 'Space Grotesk', sans-serif;
+    vertical-align: top;
+}
+
+.card2-column h3{
+    font-size: 16px;
+    color: #1D2939;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.chassis-no{
+    text-align: center;
+    padding-top: 25px;
+    font-size: 18px;
+    color: #FF8640;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.buy-option{
+    text-align: center;
+    padding: 25px;
+    font-size: 14px;
+    color: #475467;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.buy-option-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.buy-option-list{
+    display: flex;
+    width: 400px;
+    height: 50px;
+    border-radius: 30px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    box-shadow: 0px 4px 20px rgba(29, 41, 57, 0.1);
+    padding: 0px 30px;
+}
+
+.buy-option-list p{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.buy-option-list button{
+    border: none;
+    background-color: #039855;
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+
+
+
+@media only screen and (max-width:595px) {
+    .buy-option-list{
+        width: 350px;;
+    }
+    
+}
+
+@media only screen and (max-width:768px) {
+    .card-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    select {
+        display: none;
+    }
+
+    .card-container {
+        height: 500px;
+    }
+
+    .card-container p {
+        font-size: 14px;
+    }
+
+    .card-container h3 {
+        font-size: 14px;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+
+    .card1,
+    .card2 {
+        width: 100%;
+    }
+
+    .main2-content h2 {
+        font-size: 14px;
+    }
+
+}
+
+@media only screen and (max-width:798px){
+    .sidebar {
+        display: none;
+    }
+
+    .main {
+        width: 100%;
+        margin: 0;
+    }
+
+    header {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:962px) {
+    .sidebar ul {
+        padding: 10px 0px;
+    }
+
+    .sidebar li a{
+        padding: 0px 12px;
+    }
+}
+
+@media only screen and (max-width:1083px) {
+    .sidebar ul {
+        padding: 10px 10px;
+    }
+}
+
+@media only screen and (max-width:1100px) {
+    .sidebar ul {
+        padding: 10px 10px;
+    }
+
+    .sidebar li a {
+        padding: 0px 12px;
+    }
+}
+
